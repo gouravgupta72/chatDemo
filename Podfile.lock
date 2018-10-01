@@ -1,0 +1,98 @@
+PODS:
+  - Ably (1.1.0):
+    - KSCrashAblyFork (= 1.15.8-ably-2)
+    - msgpack (= 0.1.8)
+    - SAMKeychain (= 1.5.3)
+    - SocketRocket (= 0.5.1)
+    - ULID (= 1.0.2)
+  - KSCrashAblyFork (1.15.8-ably-2):
+    - KSCrashAblyFork/Installations (= 1.15.8-ably-2)
+  - KSCrashAblyFork/Installations (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting
+  - KSCrashAblyFork/Recording (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording/Tools (= 1.15.8-ably-2)
+  - KSCrashAblyFork/Recording/Tools (1.15.8-ably-2)
+  - KSCrashAblyFork/Reporting (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/MessageUI (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Sinks (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Tools (= 1.15.8-ably-2)
+  - KSCrashAblyFork/Reporting/Filters (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Alert (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/AppleFmt (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/Base (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/Basic (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/GZip (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/JSON (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/Sets (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/Stringify (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/Tools (= 1.15.8-ably-2)
+  - KSCrashAblyFork/Reporting/Filters/Alert (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/AppleFmt (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/Base (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+  - KSCrashAblyFork/Reporting/Filters/Basic (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/GZip (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/JSON (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/Sets (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/AppleFmt
+    - KSCrashAblyFork/Reporting/Filters/Base
+    - KSCrashAblyFork/Reporting/Filters/Basic
+    - KSCrashAblyFork/Reporting/Filters/GZip
+    - KSCrashAblyFork/Reporting/Filters/JSON
+    - KSCrashAblyFork/Reporting/Filters/Stringify
+  - KSCrashAblyFork/Reporting/Filters/Stringify (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/Tools (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+  - KSCrashAblyFork/Reporting/MessageUI (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+  - KSCrashAblyFork/Reporting/Sinks (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters
+    - KSCrashAblyFork/Reporting/Tools
+  - KSCrashAblyFork/Reporting/Tools (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+  - msgpack (0.1.8)
+  - SAMKeychain (1.5.3)
+  - SocketRocket (0.5.1)
+  - ULID (1.0.2)
+
+DEPENDENCIES:
+  - Ably
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Ably
+    - KSCrashAblyFork
+    - msgpack
+    - SAMKeychain
+    - SocketRocket
+    - ULID
+
+SPEC CHECKSUMS:
+  Ably: e3084affb67bb651b59c341efc5876d902a07f5b
+  KSCrashAblyFork: d356f10dcde9359db775334e38e93a48df6508f7
+  msgpack: 97491d2ea799408f4694f2c7d7fd79baf77853dd
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  ULID: fcabaa95746b670beb80c029beb3372da2f729bd
+
+PODFILE CHECKSUM: a070d46ddf0afdc1312224d32a86ccffa0be62af
+
+COCOAPODS: 1.5.3
