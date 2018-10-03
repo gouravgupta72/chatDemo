@@ -6,5 +6,5 @@ target 'chatDemo' do
   use_frameworks!
 
   # Pods for chatDemo
- pod 'Ably'`
+ pod 'Ably'
 end
